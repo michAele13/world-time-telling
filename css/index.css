@@ -1,0 +1,11 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    text-align: center;
+    color: rgb(67, 66, 66);
+}
+footer {
+    text-align: center;
+    padding: 20px 40px;
+}
