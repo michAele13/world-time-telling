@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 h1 {
@@ -8,6 +9,7 @@ h1 {
 }
 
 select {
+    display: block;
     width: 90%;
     padding: 10px;
     margin: 20px auto;
@@ -24,28 +26,33 @@ h3 {
     text-align: center;
     background: whitesmoke;
     margin: 60px auto;
-    padding: 10px 15px;
+    padding: 30px;
+    box-shadow: -11px 11px 29px 5px rgba(73,104,115,0.9);
+    border-radius: 10px;
 }
 .city {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px;
     margin: 10px 0;
     font-size: 24px;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    
 }
 .date {
     font-size: 16px;
     color: grey;
     text-align: left;
+    line-height: 10px;
 }
 .time {
     font-size: 48px;
     padding: 15px;
+    line-height: 25px;
 }
 .time small {
     font-size: 24px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 footer {
     text-align: center;
