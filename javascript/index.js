@@ -8,6 +8,15 @@ let sanMarcosTime = moment().tz("America/Ojinaga");
 sanMarcosDateElement.innerHTML = sanMarcosTime.format("MMMM Do YYYY");
 sanMarcosTimeElement.innerHTML = sanMarcosTime.format("h:mm:ss [<small>]A[</small>]");
 
+let romeElement = document.querySelector("#rome");
+let romeDateElement = romeElement.querySelector(".date");
+let romeTimeElement = romeElement.querySelector(".time");
+
+let romeTime = moment().tz("Europe/Rome");
+
+romeDateElement.innerHTML = romeTime.format("MMMM Do YYYY");
+romeTimeElement.innerHTML = romeTime.format("h:mm:ss [<small>]A[</small>]");
+
 
     let shanghaiElement = document.querySelector("#shanghai");
     let shanghaiDateElement = shanghaiElement.querySelector(".date");
@@ -34,7 +43,7 @@ function updateCity(event) {
         <h3>${cityName}</h3>
         <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
         </div>
-        <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small>  </div>
+        <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</small></div>
     </div>`;
 }
 
