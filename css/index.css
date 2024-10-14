@@ -1,6 +1,7 @@
 body {
-    background: radial-gradient(600px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgb(205, 181, 93) 36.4%, rgb(244, 102, 90) 50.9%, rgb(199, 206, 187) 60.7%, rgb(249, 140, 69) 72.5%, rgb(12, 73, 116) 72.6%);
+    background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     font-family: "Roboto Condensed", sans-serif;
+    max-height: 600px;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h3 {
     background: whitesmoke;
     margin: 60px auto;
     padding: 30px;
-    box-shadow: -11px 11px 29px 5px rgba(163, 207, 223, 0.9);
+    box-shadow: -11px 11px 29px 5px rgba(135, 176, 251, 0.9);
     border-radius: 10px;
 }
 .city {
