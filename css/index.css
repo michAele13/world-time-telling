@@ -1,13 +1,25 @@
 body {
-    background-color: bisque;
+    background: radial-gradient(600px at 100.2% 3%, rgb(12, 85, 141) 31.1%, rgb(205, 181, 93) 36.4%, rgb(244, 102, 90) 50.9%, rgb(199, 206, 187) 60.7%, rgb(249, 140, 69) 72.5%, rgb(12, 73, 116) 72.6%);
     font-family: "Roboto Condensed", sans-serif;
 }
 
 h1 {
     text-align: center;
     color: rgb(67, 66, 66);
+    
 }
-
+a:link {
+    color: rgb(171, 54, 54);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(171, 54, 54);
+}
+a:hover {
+    color: rgb(128, 81, 81);
+    cursor: pointer;
+    
+}
 select {
     display: block;
     width: 90%;
@@ -27,7 +39,7 @@ h3 {
     background: whitesmoke;
     margin: 60px auto;
     padding: 30px;
-    box-shadow: -11px 11px 29px 5px rgba(73,104,115,0.9);
+    box-shadow: -11px 11px 29px 5px rgba(163, 207, 223, 0.9);
     border-radius: 10px;
 }
 .city {
@@ -55,7 +67,10 @@ h3 {
     font-size: 24px;
     vertical-align: middle;
 }
+.homepage {
+    color: rgb(169, 36, 36);
+}
 footer {
     text-align: center;
-    padding: -5px 40px;
+    padding: 0px 40px 20px 40px;
 }
